@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		416BBF3C25E5A72100E5CC18 /* MotoGP21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416BBF3B25E5A72100E5CC18 /* MotoGP21.swift */; };
+		416BBF3E25E5A72100E5CC18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416BBF3D25E5A72100E5CC18 /* ContentView.swift */; };
+		416BBF4025E5A72100E5CC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416BBF3F25E5A72100E5CC18 /* Assets.xcassets */; };
+		416BBF4325E5A72100E5CC18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416BBF4225E5A72100E5CC18 /* Preview Assets.xcassets */; };
+		4193EB1D25E617C5005099AD /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193EB1C25E617C5005099AD /* Agent.swift */; };
+		4193EB2025E617EC005099AD /* GC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193EB1F25E617EC005099AD /* GC.swift */; };
+		4193EB2425E61877005099AD /* MotoGPRidersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193EB2325E61877005099AD /* MotoGPRidersAPI.swift */; };
+		4193EB2A25E61908005099AD /* Rider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193EB2925E61908005099AD /* Rider.swift */; };
+		4193EB3025E6419E005099AD /* RidersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193EB2F25E6419E005099AD /* RidersListViewModel.swift */; };
+		4193EB3525E6436F005099AD /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193EB3425E6436F005099AD /* Feedback.swift */; };
+		4193EB3925E64381005099AD /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193EB3825E64381005099AD /* System.swift */; };
+		4193EB3C25E6449A005099AD /* RidersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193EB3B25E6449A005099AD /* RidersListView.swift */; };
+		4193EB3F25E644D1005099AD /* RiderListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193EB3E25E644D1005099AD /* RiderListItemView.swift */; };
+		4193EB4525E64582005099AD /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193EB4425E64582005099AD /* Spinner.swift */; };
+		4193EB4A25E6459E005099AD /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193EB4925E6459E005099AD /* ImageCache.swift */; };
+		4193EB4E25E645AE005099AD /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193EB4D25E645AE005099AD /* ImageLoader.swift */; };
+		4193EB5125E645E4005099AD /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193EB5025E645E4005099AD /* AsyncImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		416BBF3825E5A72100E5CC18 /* MotoGP21-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MotoGP21-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		416BBF3B25E5A72100E5CC18 /* MotoGP21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoGP21.swift; sourceTree = "<group>"; };
+		416BBF3D25E5A72100E5CC18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		416BBF3F25E5A72100E5CC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		416BBF4225E5A72100E5CC18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		416BBF4425E5A72100E5CC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4193EB1C25E617C5005099AD /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
+		4193EB1F25E617EC005099AD /* GC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GC.swift; sourceTree = "<group>"; };
+		4193EB2325E61877005099AD /* MotoGPRidersAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoGPRidersAPI.swift; sourceTree = "<group>"; };
+		4193EB2925E61908005099AD /* Rider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rider.swift; sourceTree = "<group>"; };
+		4193EB2F25E6419E005099AD /* RidersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidersListViewModel.swift; sourceTree = "<group>"; };
+		4193EB3425E6436F005099AD /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		4193EB3825E64381005099AD /* System.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
+		4193EB3B25E6449A005099AD /* RidersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidersListView.swift; sourceTree = "<group>"; };
+		4193EB3E25E644D1005099AD /* RiderListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderListItemView.swift; sourceTree = "<group>"; };
+		4193EB4425E64582005099AD /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		4193EB4925E6459E005099AD /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		4193EB4D25E645AE005099AD /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		4193EB5025E645E4005099AD /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		416BBF3525E5A72100E5CC18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		416BBF2F25E5A72100E5CC18 = {
+			isa = PBXGroup;
+			children = (
+				416BBF3A25E5A72100E5CC18 /* MotoGP21-MVVM */,
+				416BBF3925E5A72100E5CC18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		416BBF3925E5A72100E5CC18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				416BBF3825E5A72100E5CC18 /* MotoGP21-MVVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		416BBF3A25E5A72100E5CC18 /* MotoGP21-MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				4193EB4325E6457A005099AD /* Controls */,
+				4193EB3325E64365005099AD /* Feedback */,
+				4193EB2D25E64157005099AD /* Presentation */,
+				416BBF4C25E5A75B00E5CC18 /* API */,
+				416BBF3B25E5A72100E5CC18 /* MotoGP21.swift */,
+				416BBF3D25E5A72100E5CC18 /* ContentView.swift */,
+				416BBF3F25E5A72100E5CC18 /* Assets.xcassets */,
+				416BBF4425E5A72100E5CC18 /* Info.plist */,
+				416BBF4125E5A72100E5CC18 /* Preview Content */,
+			);
+			path = "MotoGP21-MVVM";
+			sourceTree = "<group>";
+		};
+		416BBF4125E5A72100E5CC18 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				416BBF4225E5A72100E5CC18 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		416BBF4C25E5A75B00E5CC18 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4193EB2725E618FA005099AD /* Models */,
+				4193EB1F25E617EC005099AD /* GC.swift */,
+				4193EB1C25E617C5005099AD /* Agent.swift */,
+				4193EB2325E61877005099AD /* MotoGPRidersAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4193EB2725E618FA005099AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4193EB2925E61908005099AD /* Rider.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4193EB2D25E64157005099AD /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				4193EB2E25E6417B005099AD /* RiderssList */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		4193EB2E25E6417B005099AD /* RiderssList */ = {
+			isa = PBXGroup;
+			children = (
+				4193EB2F25E6419E005099AD /* RidersListViewModel.swift */,
+				4193EB3B25E6449A005099AD /* RidersListView.swift */,
+				4193EB3E25E644D1005099AD /* RiderListItemView.swift */,
+			);
+			path = RiderssList;
+			sourceTree = "<group>";
+		};
+		4193EB3325E64365005099AD /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				4193EB3425E6436F005099AD /* Feedback.swift */,
+				4193EB3825E64381005099AD /* System.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		4193EB4325E6457A005099AD /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				4193EB4825E64597005099AD /* AsyncImage */,
+				4193EB4425E64582005099AD /* Spinner.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		4193EB4825E64597005099AD /* AsyncImage */ = {
+			isa = PBXGroup;
+			children = (
+				4193EB4925E6459E005099AD /* ImageCache.swift */,
+				4193EB4D25E645AE005099AD /* ImageLoader.swift */,
+				4193EB5025E645E4005099AD /* AsyncImage.swift */,
+			);
+			path = AsyncImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		416BBF3725E5A72100E5CC18 /* MotoGP21-MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416BBF4725E5A72100E5CC18 /* Build configuration list for PBXNativeTarget "MotoGP21-MVVM" */;
+			buildPhases = (
+				416BBF3425E5A72100E5CC18 /* Sources */,
+				416BBF3525E5A72100E5CC18 /* Frameworks */,
+				416BBF3625E5A72100E5CC18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MotoGP21-MVVM";
+			productName = "MotoGP21-MVVM";
+			productReference = 416BBF3825E5A72100E5CC18 /* MotoGP21-MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		416BBF3025E5A72100E5CC18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					416BBF3725E5A72100E5CC18 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 416BBF3325E5A72100E5CC18 /* Build configuration list for PBXProject "MotoGP21-MVVM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 416BBF2F25E5A72100E5CC18;
+			productRefGroup = 416BBF3925E5A72100E5CC18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				416BBF3725E5A72100E5CC18 /* MotoGP21-MVVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		416BBF3625E5A72100E5CC18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416BBF4325E5A72100E5CC18 /* Preview Assets.xcassets in Resources */,
+				416BBF4025E5A72100E5CC18 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		416BBF3425E5A72100E5CC18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4193EB4E25E645AE005099AD /* ImageLoader.swift in Sources */,
+				4193EB1D25E617C5005099AD /* Agent.swift in Sources */,
+				4193EB4A25E6459E005099AD /* ImageCache.swift in Sources */,
+				4193EB2025E617EC005099AD /* GC.swift in Sources */,
+				4193EB2A25E61908005099AD /* Rider.swift in Sources */,
+				4193EB3F25E644D1005099AD /* RiderListItemView.swift in Sources */,
+				4193EB3C25E6449A005099AD /* RidersListView.swift in Sources */,
+				4193EB2425E61877005099AD /* MotoGPRidersAPI.swift in Sources */,
+				416BBF3E25E5A72100E5CC18 /* ContentView.swift in Sources */,
+				4193EB4525E64582005099AD /* Spinner.swift in Sources */,
+				4193EB5125E645E4005099AD /* AsyncImage.swift in Sources */,
+				416BBF3C25E5A72100E5CC18 /* MotoGP21.swift in Sources */,
+				4193EB3525E6436F005099AD /* Feedback.swift in Sources */,
+				4193EB3925E64381005099AD /* System.swift in Sources */,
+				4193EB3025E6419E005099AD /* RidersListViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		416BBF4525E5A72100E5CC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		416BBF4625E5A72100E5CC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		416BBF4825E5A72100E5CC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MotoGP21-MVVM/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MotoGP21-MVVM/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yarmolchuk.MotoGP21-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		416BBF4925E5A72100E5CC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MotoGP21-MVVM/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MotoGP21-MVVM/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yarmolchuk.MotoGP21-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		416BBF3325E5A72100E5CC18 /* Build configuration list for PBXProject "MotoGP21-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416BBF4525E5A72100E5CC18 /* Debug */,
+				416BBF4625E5A72100E5CC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416BBF4725E5A72100E5CC18 /* Build configuration list for PBXNativeTarget "MotoGP21-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416BBF4825E5A72100E5CC18 /* Debug */,
+				416BBF4925E5A72100E5CC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 416BBF3025E5A72100E5CC18 /* Project object */;
+}
